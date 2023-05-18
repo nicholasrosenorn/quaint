@@ -1,0 +1,40 @@
+@import "../../style.scss";
+.header-banner {
+    @include themify($themes) {
+        display: flex;
+        gap: 20px;
+        border-bottom: 1px solid themed("border");
+        height: 30px;
+        position: sticky;
+        top: 71px;
+        background-color: themed("bg");
+        z-index: 999;
+        padding: 10px;
+
+        .foryou{
+            border-bottom: 1px solid themed("textColor");
+
+            button {
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                color: themed("textColorSoft");
+                font-size: small;
+            }
+        }
+
+        .following{
+
+            button {
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                color: themed("border");
+                font-size: small;
+            }
+            button:hover{
+                color: themed("textColorSoft");
+            }
+        }
+    }
+}

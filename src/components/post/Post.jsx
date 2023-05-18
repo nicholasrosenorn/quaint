@@ -30,7 +30,7 @@ const Post = ({post}) => {
                     <MoreHorizIcon />
                 </div>
                 <div className="content">
-                    <p>{post.desc}</p>
+                    <p> {post.desc.substring(0, 300) + "..."} </p>
                     <img src={Object.values(post.img)} alt=""/>
                 </div>
                 <div className="info">

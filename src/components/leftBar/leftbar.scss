@@ -9,6 +9,7 @@
         overflow: scroll;
         background-color: themed("bg");
         color: themed("textColor");
+        border-right: 1px solid themed("border");
 
         @include mobile {
             display: none;
@@ -56,6 +57,7 @@
                     align-items: center;
                     gap: 10px;
                     border-radius: 30px;
+                    
 
                     img {
                         width: 30px;
@@ -68,30 +70,38 @@
             }
             .tags {
                 display: flex;
-                flex-direction: column;
                 gap: 10px;
+                flex-direction: column;
 
-                span {
-                    font-size: 12px;
+
+                .title {
+                    span {
+                        font-size: 12px;
+                    }
                 }
 
-                .item {
+                .tag-content{
                     display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    border-radius: 30px;
-                    background-color: #A2DED0;
-                    color: white;
-                    padding: 5px;
-                    width: fit-content;
-                    padding-left: 10px;
-                    padding-right: 10px;
-                    cursor: pointer;
+                    gap: 5px;
+                    flex-wrap: wrap;
 
-                    span {
+                    .item {
+                        
+                        display: flex;
+                        align-items: center;
+                        border-radius: 30px;
+                        background-color: themed("bgSoft");
+                        padding: 5px;
+                        width: fit-content;
+                        padding-left: 10px;
+                        padding-right: 10px;
                         cursor: pointer;
-                        font-size: 12px;
-
+                        border: 1px solid themed("border");
+    
+                        span {
+                            cursor: pointer;
+                            font-size: 12px;
+                        }
                     }
                 }
             }

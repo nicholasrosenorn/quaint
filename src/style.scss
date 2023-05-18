@@ -3,16 +3,16 @@ $themes:(
         textColor: #000,
         bg: #FDFDFD,
         logo: darkblue,
-        bgSoft: #f6f3f3,
+        bgSoft: #FDFDFD,
         textColorSoft: #555,
         border: lightgray,
     ),
     dark:(
         textColor: whitesmoke,
-        bg: #222,
+        bg: #333,
         logo: white,
         bgSoft: #333,
-        textColorsoft: lightgray,
+        textColorSoft: lightgray,
         border: #444,
     )
 );

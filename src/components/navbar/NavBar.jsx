@@ -5,10 +5,9 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined';
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
+import NoteAddOutlinedIcon from '@mui/icons-material/NoteAddOutlined';
 //import User from "../../assets/user_icon_img.png"
 import { DarkModeContext } from "../../context/darkModeContext";
 import { AuthContext } from "../../context/authContext";
@@ -33,8 +32,7 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="right">
-                <PersonOutlineOutlinedIcon />
-                <EmailOutlinedIcon />
+                <NoteAddOutlinedIcon />
                 <NotificationsOutlinedIcon />
                 <div className="user">
                     <img src={Object.values(currentUser.profilePic)} alt="" />

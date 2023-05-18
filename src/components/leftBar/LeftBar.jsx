@@ -9,13 +9,13 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import RecyclingIcon from '@mui/icons-material/Recycling';
 import SchoolIcon from '@mui/icons-material/School';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import ChairIcon from '@mui/icons-material/Chair';
-import DevicesIcon from '@mui/icons-material/Devices';
-import LocalAirportIcon from '@mui/icons-material/LocalAirport';
-import KeyIcon from '@mui/icons-material/Key';
-import ChildFriendlyIcon from '@mui/icons-material/ChildFriendly';
-import ColorLensIcon from '@mui/icons-material/ColorLens';
+//import CheckroomIcon from '@mui/icons-material/Checkroom';
+//import ChairIcon from '@mui/icons-material/Chair';
+//import DevicesIcon from '@mui/icons-material/Devices';
+//import LocalAirportIcon from '@mui/icons-material/LocalAirport';
+//import KeyIcon from '@mui/icons-material/Key';
+//import ChildFriendlyIcon from '@mui/icons-material/ChildFriendly';
+//import ColorLensIcon from '@mui/icons-material/ColorLens';
 import GroupsIcon from '@mui/icons-material/Groups';
 
 
@@ -52,34 +52,37 @@ const LeftBar = () => {
                 </div>
                 <hr />
                 <div className="tags">
-                    <span>Tags</span>
-                    <div className="item">
-                        <CheckroomIcon style={{ color: "#FDFDFD", fontSize:"10px" }}/>
-                        <span>Minimalist Fashion</span>
+                    <div className="title">
+                        <span>Tags</span>
                     </div>
-                    <div className="item">
-                        <ChairIcon style={{ color: "#FDFDFD", fontSize:"10px" }} />
-                        <span>Minimalist Decor</span>
-                    </div>
-                    <div className="item">
-                        <DevicesIcon style={{ color: "#FDFDFD", fontSize:"10px" }}/>
-                        <span>Digital Minimalism</span>
-                    </div>
-                    <div className="item">
-                        <LocalAirportIcon style={{ color: "#FDFDFD", fontSize:"10px" }} />
-                        <span>Minimalist Travel</span>
-                    </div>
-                    <div className="item">
-                        <KeyIcon style={{ color: "#FDFDFD", fontSize:"10px" }} />
-                        <span>Essentialism</span>
-                    </div>
-                    <div className="item">
-                        <ChildFriendlyIcon style={{ color: "#FDFDFD", fontSize:"10px" }} />
-                        <span>Minimalist Parenting</span>
-                    </div>
-                    <div className="item">
-                        <ColorLensIcon style={{ color: "#FDFDFD", fontSize:"10px" }} />
-                        <span>Minimalist Art</span>
+                    <div className="tag-content">
+                        <div className="item">
+                            <span>Minimalist Fashion</span>
+                        </div>
+                        <div className="item">
+                            <span>Mindful Eating</span>
+                        </div>
+                        <div className="item">
+                            <span>Minimalist Interior Design</span>
+                        </div>
+                        <div className="item">
+                            <span>Digital Minimalism</span>
+                        </div>
+                        <div className="item">
+                            <span>Minimalist Travel</span>
+                        </div>
+                        <div className="item">
+                            <span>Essentialism</span>
+                        </div>
+                        <div className="item">
+                            <span>Minimalist Parenting</span>
+                        </div>
+                        <div className="item">
+                            <span>Minimalist Recipes</span>
+                        </div>
+                        <div className="item">
+                            <span>Minimalist Art</span>
+                        </div>
                     </div>
                 </div>
                 <hr />
